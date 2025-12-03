@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <script>
+
+//COMPARISON OPERATOR
+
+let a = 10;
+let b = 20;
+
+console.log("a == b : " + (a == b));     // false
+console.log("a === b : " + (a === b));   // false
+console.log("a != b : " + (a != b));     // true
+console.log("a > b : " + (a > b));       // false
+console.log("a < b : " + (a < b));       // true
+console.log("a >= 10 : " + (a >= 10));   // true
+console.log("b <= 15 : " + (b <= 15));   // false
+
+      //CONDITIONAL OPERATORS(DECISION MAKING)
+
+//? → if condition is true
+
+//: → if condition is false
+
+//Short way to write if...else
+let marks1 = 80;
+
+if(marks1 >= 50){
+   console.log("Pass");
+} else {
+   console.log("Fail");
+}
+// 1. Age check
+let age = 16;
+let vote = (age >= 18) ? "You are eligible to vote" : "You are not eligible to vote";
+console.log(vote);
+
+// 2. Marks check
+let marks = 72;
+let result = (marks >= 50) ? "Pass" : "Fail";
+console.log(result);
+
+// 3. Even or Odd check
+let number = 7;
+let type = (number % 2 === 0) ? "Even number" : "Odd number";
+console.log(type);
+
+
+
+    </script>
+  </body>
+</html>
